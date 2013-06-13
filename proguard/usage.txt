@@ -1,0 +1,581 @@
+com.badlogic.gdx.physics.box2d.joints.DistanceJoint:
+    31:32:public void setLength(float)
+    private native void jniSetLength(long,float)
+    40:40:public float getLength()
+    private native float jniGetLength(long)
+    49:50:public void setFrequency(float)
+    private native void jniSetFrequency(long,float)
+    58:58:public float getFrequency()
+    private native float jniGetFrequency(long)
+    67:68:public void setDampingRatio(float)
+    private native void jniSetDampingRatio(long,float)
+    76:76:public float getDampingRatio()
+    private native float jniGetDampingRatio(long)
+com.badlogic.gdx.physics.box2d.joints.FrictionJoint:
+    30:31:public void setMaxForce(float)
+    private native void jniSetMaxForce(long,float)
+    39:39:public float getMaxForce()
+    private native float jniGetMaxForce(long)
+    48:49:public void setMaxTorque(float)
+    private native void jniSetMaxTorque(long,float)
+    57:57:public float getMaxTorque()
+    private native float jniGetMaxTorque(long)
+com.badlogic.gdx.physics.box2d.joints.GearJoint:
+    34:35:public void setRatio(float)
+    private native void jniSetRatio(long,float)
+    43:43:public float getRatio()
+    private native float jniGetRatio(long)
+com.badlogic.gdx.physics.box2d.joints.LineJoint:
+    31:31:public float getJointTranslation()
+    private native float jniGetJointTranslation(long)
+    40:40:public float getJointSpeed()
+    private native float jniGetJointSpeed(long)
+    49:49:public boolean isLimitEnabled()
+    private native boolean jniIsLimitEnabled(long)
+    58:59:public void enableLimit(boolean)
+    private native void jniEnableLimit(long,boolean)
+    67:67:public float getLowerLimit()
+    private native float jniGetLowerLimit(long)
+    76:76:public float getUpperLimit()
+    private native float jniGetUpperLimit(long)
+    85:86:public void setLimits(float,float)
+    private native void jniSetLimits(long,float,float)
+    94:94:public boolean isMotorEnabled()
+    private native boolean jniIsMotorEnabled(long)
+    103:104:public void enableMotor(boolean)
+    private native void jniEnableMotor(long,boolean)
+    112:113:public void setMotorSpeed(float)
+    private native void jniSetMotorSpeed(long,float)
+    121:121:public float getMotorSpeed()
+    private native float jniGetMotorSpeed(long)
+    130:131:public void setMaxMotorForce(float)
+    private native void jniSetMaxMotorForce(long,float)
+    139:139:public float getMaxMotorForce()
+    private native float jniGetMaxMotorForce(long)
+    148:148:public float getMotorForce()
+    private native float jniGetMotorForce(long)
+com.badlogic.gdx.physics.box2d.joints.PrismaticJoint:
+    32:32:public float getJointTranslation()
+    private native float jniGetJointTranslation(long)
+    41:41:public float getJointSpeed()
+    private native float jniGetJointSpeed(long)
+    50:50:public boolean isLimitEnabled()
+    private native boolean jniIsLimitEnabled(long)
+    59:60:public void enableLimit(boolean)
+    private native void jniEnableLimit(long,boolean)
+    68:68:public float getLowerLimit()
+    private native float jniGetLowerLimit(long)
+    77:77:public float getUpperLimit()
+    private native float jniGetUpperLimit(long)
+    86:87:public void setLimits(float,float)
+    private native void jniSetLimits(long,float,float)
+    95:95:public boolean isMotorEnabled()
+    private native boolean jniIsMotorEnabled(long)
+    104:105:public void enableMotor(boolean)
+    private native void jniEnableMotor(long,boolean)
+    113:114:public void setMotorSpeed(float)
+    private native void jniSetMotorSpeed(long,float)
+    122:122:public float getMotorSpeed()
+    private native float jniGetMotorSpeed(long)
+    131:132:public void setMaxMotorForce(float)
+    private native void jniSetMaxMotorForce(long,float)
+    140:140:public float getMotorForce()
+    private native float jniGetMotorForce(long)
+com.badlogic.gdx.physics.box2d.joints.RevoluteJoint:
+    33:33:public float getJointAngle()
+    private native float jniGetJointAngle(long)
+    42:42:public float getJointSpeed()
+    private native float jniGetJointSpeed(long)
+    51:51:public boolean isLimitEnabled()
+    private native boolean jniIsLimitEnabled(long)
+    60:61:public void enableLimit(boolean)
+    private native void jniEnableLimit(long,boolean)
+    69:69:public float getLowerLimit()
+    private native float jniGetLowerLimit(long)
+    78:78:public float getUpperLimit()
+    private native float jniGetUpperLimit(long)
+    88:89:public void setLimits(float,float)
+    private native void jniSetLimits(long,float,float)
+    97:97:public boolean isMotorEnabled()
+    private native boolean jniIsMotorEnabled(long)
+    106:107:public void enableMotor(boolean)
+    private native void jniEnableMotor(long,boolean)
+    115:116:public void setMotorSpeed(float)
+    private native void jniSetMotorSpeed(long,float)
+    124:124:public float getMotorSpeed()
+    private native float jniGetMotorSpeed(long)
+    133:134:public void setMaxMotorTorque(float)
+    private native void jniSetMaxMotorTorque(long,float)
+    142:142:public float getMotorTorque()
+    private native float jniGetMotorTorque(long)
+com.ozateck.db.DBManager:
+    private static final java.lang.String TAG
+    81:93:public void update(int,java.util.List)
+    98:101:public void delete(int)
+com.ozateck.okamirun.Background:
+    private static final java.lang.String TAG
+    private static final int TAG_BACK
+    148:151:public void start()
+    154:157:public void stop()
+    160:160:public boolean isScrolling()
+    176:176:public void update()
+com.ozateck.okamirun.BtnBack:
+    private static final java.lang.String TAG
+    private static final int TAG_BACK
+    private int itemInd
+    99:99:public org.cocos2d.types.CGPoint getCenterPoint()
+    119:126:public void changeToggle()
+    145:145:public boolean isActive()
+com.ozateck.okamirun.BtnPlay:
+    private static final java.lang.String TAG
+    private static final int TAG_BACK
+    private int itemInd
+    101:101:public org.cocos2d.types.CGPoint getCenterPoint()
+    121:128:public void changeToggle()
+    147:147:public boolean isActive()
+com.ozateck.okamirun.BtnRetry:
+    private static final java.lang.String TAG
+    private static final int TAG_BACK
+    private int itemInd
+    101:101:public org.cocos2d.types.CGPoint getCenterPoint()
+    121:128:public void changeToggle()
+    147:147:public boolean isActive()
+com.ozateck.okamirun.BtnScore:
+    private static final java.lang.String TAG
+    private static final int TAG_BACK
+    private int itemInd
+    101:101:public org.cocos2d.types.CGPoint getCenterPoint()
+    121:128:public void changeToggle()
+    147:147:public boolean isActive()
+com.ozateck.okamirun.Daruma:
+    private static final int TAG_DARUMA
+    138:138:public org.cocos2d.types.CGPoint getPosition()
+    176:186:public boolean isInside(org.cocos2d.types.CGPoint)
+com.ozateck.okamirun.GameOverLayer:
+    private static final java.lang.String TAG
+    protected static final float WORLD_WIDTH_METER
+com.ozateck.okamirun.GamePlayLayer:
+    private static final java.lang.String TAG
+    protected static final float WORLD_WIDTH_METER
+    211:212:public void testLogic(java.lang.String)
+com.ozateck.okamirun.GameScoreLayer:
+    private static final java.lang.String TAG
+    protected static final float WORLD_WIDTH_METER
+com.ozateck.okamirun.GameTopLayer:
+    private static final java.lang.String TAG
+    protected static final float WORLD_WIDTH_METER
+com.ozateck.okamirun.Hituji:
+    private static final java.lang.String TAG
+    private static final int TAG_BACK
+    private static final int TAG_ANIME
+com.ozateck.okamirun.MainActivity:
+    public static final java.lang.String TAG
+com.ozateck.okamirun.Obstacle:
+    protected static final java.lang.String TAG
+    public abstract org.cocos2d.types.CGPoint getPosition()
+    public abstract void stand()
+    public abstract boolean isInside(org.cocos2d.types.CGPoint)
+com.ozateck.okamirun.Okami:
+    protected static final java.lang.String TAG
+    private static final int TAG_BACK
+    private static final int TAG_ANIME
+    204:204:public org.cocos2d.types.CGPoint getCenterPoint()
+    209:219:public boolean isInside(org.cocos2d.types.CGPoint)
+    226:234:public org.cocos2d.types.CGRect getHittingRect()
+com.ozateck.okamirun.Plane:
+    private static final int TAG_PLANE
+    144:144:public org.cocos2d.types.CGPoint getPosition()
+    182:192:public boolean isInside(org.cocos2d.types.CGPoint)
+com.ozateck.okamirun.R
+com.ozateck.okamirun.R$attr
+com.ozateck.okamirun.R$drawable
+com.ozateck.okamirun.R$layout
+com.ozateck.okamirun.R$raw
+com.ozateck.okamirun.R$string
+com.ozateck.okamirun.Saku:
+    private static final int TAG_SAKU
+    127:127:public org.cocos2d.types.CGPoint getPosition()
+    161:171:public boolean isInside(org.cocos2d.types.CGPoint)
+com.ozateck.okamirun.ScorePanel:
+    private static final java.lang.String TAG
+    private static final int TAG_BACK
+    109:109:public org.cocos2d.types.CGPoint getCenterPoint()
+com.ozateck.okamirun.Shonen:
+    private static final java.lang.String TAG
+    private static final int TAG_BACK
+    private static final int TAG_ANIME
+    200:210:public boolean isInside(org.cocos2d.types.CGPoint)
+org.cocos2d.actions.ease.CCEaseBackIn:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseBackInOut:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseBackOut:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseBounce:
+    public abstract void update(float)
+    public abstract org.cocos2d.actions.interval.CCIntervalAction reverse()
+org.cocos2d.actions.ease.CCEaseBounceIn:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseBounceInOut:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseBounceOut:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseElasticIn:
+    12:12:public static org.cocos2d.actions.ease.CCEaseElasticIn action(org.cocos2d.actions.interval.CCIntervalAction,float)
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseElasticInOut:
+    8:8:public static org.cocos2d.actions.ease.CCEaseElasticInOut action(org.cocos2d.actions.interval.CCIntervalAction)
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseElasticOut:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseExponentialIn:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseExponentialInOut:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseExponentialOut:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseIn:
+    1:1:public static org.cocos2d.actions.ease.CCEaseRateAction action(org.cocos2d.actions.interval.CCIntervalAction,float)
+org.cocos2d.actions.ease.CCEaseInOut:
+    1:1:public static org.cocos2d.actions.ease.CCEaseRateAction action(org.cocos2d.actions.interval.CCIntervalAction,float)
+org.cocos2d.actions.ease.CCEaseOut:
+    1:1:public static org.cocos2d.actions.ease.CCEaseRateAction action(org.cocos2d.actions.interval.CCIntervalAction,float)
+org.cocos2d.actions.ease.CCEaseSineIn:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseSineInOut:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.ease.CCEaseSineOut:
+    1:1:public static org.cocos2d.actions.ease.CCEaseAction action(org.cocos2d.actions.interval.CCIntervalAction)
+org.cocos2d.actions.grid.CCFlipY3D:
+    12:12:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+    16:16:public static org.cocos2d.actions.grid.CCFlipY3D action(org.cocos2d.types.ccGridSize,float)
+    1:1:public static org.cocos2d.actions.grid.CCGrid3DAction action(org.cocos2d.types.ccGridSize,float)
+org.cocos2d.actions.grid.CCPageTurn3D:
+    1:1:public static org.cocos2d.actions.grid.CCGrid3DAction action(org.cocos2d.types.ccGridSize,float)
+org.cocos2d.actions.grid.CCStopGrid:
+    1:1:public static org.cocos2d.actions.base.CCAction action()
+org.cocos2d.actions.instant.CCHide:
+    1:1:public static org.cocos2d.actions.base.CCAction action()
+org.cocos2d.actions.instant.CCShow:
+    1:1:public static org.cocos2d.actions.base.CCAction action()
+org.cocos2d.actions.instant.CCToggleVisibility:
+    1:1:public static org.cocos2d.actions.base.CCAction action()
+org.cocos2d.actions.interval.CCDelayTime:
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.actions.interval.CCFadeIn:
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.actions.interval.CCFadeOut:
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.actions.interval.CCJumpTo:
+    1:1:public static org.cocos2d.actions.interval.CCJumpBy action(float,org.cocos2d.types.CGPoint,float,int)
+org.cocos2d.actions.interval.CCMoveBy:
+    1:1:public static org.cocos2d.actions.interval.CCMoveTo action(float,org.cocos2d.types.CGPoint)
+org.cocos2d.actions.interval.CCScaleBy:
+    1:1:public static org.cocos2d.actions.interval.CCScaleTo action(float,float,float)
+    1:1:public static org.cocos2d.actions.interval.CCScaleTo action(float,float)
+org.cocos2d.actions.tile.CCFadeOutBLTiles:
+    1:1:public static org.cocos2d.actions.tile.CCFadeOutTRTiles action(org.cocos2d.types.ccGridSize,float)
+org.cocos2d.actions.tile.CCFadeOutDownTiles:
+    1:1:public static org.cocos2d.actions.tile.CCFadeOutUpTiles action(org.cocos2d.types.ccGridSize,float)
+org.cocos2d.actions.tile.CCFadeOutTRTiles:
+    1:1:public static org.cocos2d.actions.tile.CCTiledGrid3DAction action(org.cocos2d.types.ccGridSize,float)
+org.cocos2d.actions.tile.CCFadeOutUpTiles:
+    1:1:public static org.cocos2d.actions.tile.CCFadeOutTRTiles action(org.cocos2d.types.ccGridSize,float)
+org.cocos2d.menus.CCMenuItemImage:
+    28:28:public static org.cocos2d.menus.CCMenuItemImage item(java.lang.String,java.lang.String,java.lang.String)
+org.cocos2d.nodes.CCNode$CocosNodeSize
+org.cocos2d.opengl.OpenGLViewAlreadyAttachedException
+org.cocos2d.opengl.OpenGLViewCantAttachException
+org.cocos2d.opengl.OpenGLViewCantDetachException
+org.cocos2d.opengl.OpenGLViewCantInitException
+org.cocos2d.opengl.OpenGLViewNotAttachedException
+org.cocos2d.particlesystem.CCParticleExplosion:
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.particlesystem.CCParticleFire:
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.particlesystem.CCParticleFireworks:
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.particlesystem.CCParticleFlower:
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.particlesystem.CCParticleGalaxy:
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.particlesystem.CCParticleMeteor:
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.particlesystem.CCParticleRain:
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.particlesystem.CCParticleSmoke:
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.particlesystem.CCParticleSnow:
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.particlesystem.CCParticleSpiral:
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.particlesystem.CCParticleSun:
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.protocols.CCBlendProtocol
+org.cocos2d.protocols.CCRGBAProtocol:
+    public abstract boolean doesOpacityModifyRGB()
+org.cocos2d.protocols.CCTextureProtocol
+org.cocos2d.tests.ActionManagerTest$CrashTest:
+    224:226:public void removeThis()
+org.cocos2d.tests.ActionManagerTest$Issue835:
+    365:369:public void resumeGrossini(float)
+org.cocos2d.tests.ActionManagerTest$LogicTest:
+    249:251:public void bugMe(org.cocos2d.nodes.CCNode)
+org.cocos2d.tests.ActionManagerTest$PauseTest:
+    285:288:public void unpause(float)
+org.cocos2d.tests.ActionManagerTest$RemoveTest:
+    319:321:public void stopAction(java.lang.Object)
+org.cocos2d.tests.ActionsTest$ActionCallFunc:
+    891:896:public void callback1()
+    900:905:public void callback2(java.lang.Object)
+    909:913:public void callback3(java.lang.Object,java.lang.Object)
+org.cocos2d.tests.ActionsTest$ActionCallFuncND:
+    936:941:public void callbackND(java.lang.Object,java.lang.Object)
+org.cocos2d.tests.ActionsTest$ActionRepeatForever:
+    686:689:public void repeatForever(java.lang.Object)
+org.cocos2d.tests.ActionsTest$ActionSequence2:
+    625:630:public void callback1()
+    633:638:public void callback2(java.lang.Object)
+    641:646:public void callback3(java.lang.Object,java.lang.Object)
+org.cocos2d.tests.CocosNodeTest$CustomNode:
+    483:484:public void doSomething(float)
+    1:1:public static org.cocos2d.nodes.CCNode node()
+org.cocos2d.tests.CocosNodeTest$StressTest1:
+    401:419:public void shouldNotCrash(float)
+    423:425:public void removeMe(java.lang.Object)
+org.cocos2d.tests.CocosNodeTest$StressTest2:
+    467:470:public void shouldNotLeak(float)
+org.cocos2d.tests.CocosNodeTest$Test4:
+    273:276:public void delay2(float)
+    279:281:public void delay4(float)
+org.cocos2d.tests.CocosNodeTest$Test5:
+    318:326:public void addAndRemove(float)
+org.cocos2d.tests.CocosNodeTest$Test6:
+    370:378:public void addAndRemove(float)
+org.cocos2d.tests.DrawPrimitivesTest$Test1:
+    177:177:public static org.cocos2d.layers.CCLayer node()
+    274:274:public java.lang.String title()
+org.cocos2d.tests.DrawPrimitivesTest$TestDemo:
+    144:150:public void restartCallback(java.lang.Object)
+    153:159:public void nextCallback(java.lang.Object)
+    162:168:public void backCallback(java.lang.Object)
+    171:171:java.lang.String title()
+org.cocos2d.tests.EaseActionsTest$SpeedTest:
+    656:664:public void altertime(float)
+org.cocos2d.tests.EaseActionsTest$SpriteEase:
+    271:275:public void testStopAction(float)
+org.cocos2d.tests.EffectsAdvancedTest$TextLayer:
+    213:216:public void restartCallback(java.lang.Object)
+    219:222:public void nextCallback(java.lang.Object)
+    225:228:public void backCallback(java.lang.Object)
+org.cocos2d.tests.EffectsTest$FadeOutBLTilesDemo:
+    472:476:public static org.cocos2d.actions.interval.CCSequence action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$FadeOutDownTilesDemo:
+    503:507:public static org.cocos2d.actions.interval.CCSequence action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$FadeOutTRTilesDemo:
+    457:461:public static org.cocos2d.actions.interval.CCSequence action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$FadeOutUpTilesDemo:
+    487:491:public static org.cocos2d.actions.interval.CCSequence actionWithDuration(float)
+org.cocos2d.tests.EffectsTest$FlipX3DDemo:
+    328:332:public static org.cocos2d.actions.interval.CCSequence action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$FlipY3DDemo:
+    343:347:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$JumpTiles3DDemo:
+    545:545:public static org.cocos2d.actions.tile.CCJumpTiles3D actionWithDuration(float)
+org.cocos2d.tests.EffectsTest$Lens3DDemo:
+    358:359:public static org.cocos2d.actions.grid.CCLens3D action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$LiquidDemo:
+    383:383:public static org.cocos2d.actions.grid.CCLiquid action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$PageTurn3DDemo:
+    579:579:public static org.cocos2d.actions.grid.CCPageTurn3D action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$Ripple3DDemo:
+    371:372:public static org.cocos2d.actions.grid.CCRipple3D action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$Shaky3DDemo:
+    306:306:public static org.cocos2d.actions.grid.CCShaky3D action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$ShakyTiles3DDemo:
+    419:419:public static org.cocos2d.actions.tile.CCShakyTiles3D action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$ShatteredTiles3DDemo:
+    431:431:public static org.cocos2d.actions.tile.CCShatteredTiles3D action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$ShuffleTilesDemo:
+    442:446:public static org.cocos2d.actions.interval.CCSequence action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$SplitColsDemo:
+    567:567:public static org.cocos2d.actions.tile.CCSplitCols action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$SplitRowsDemo:
+    556:556:public static org.cocos2d.actions.tile.CCSplitRows action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$TextLayer:
+    271:273:public void newOrientation()
+    276:280:public void newScene()
+    283:285:public void restartCallback(java.lang.Object)
+    288:290:public void nextCallback(java.lang.Object)
+    293:295:public void backCallback(java.lang.Object)
+org.cocos2d.tests.EffectsTest$TurnOffTilesDemo:
+    518:522:public static org.cocos2d.actions.interval.CCSequence action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$TwirlDemo:
+    407:408:public static org.cocos2d.actions.grid.CCTwirl action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$Waves3DDemo:
+    317:317:public static org.cocos2d.actions.grid.CCWaves3D action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$WavesDemo:
+    395:395:public static org.cocos2d.actions.grid.CCWaves action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.EffectsTest$WavesTiles3DDemo:
+    533:533:public static org.cocos2d.actions.tile.CCWavesTiles3D action(float)
+    1:1:public static org.cocos2d.actions.interval.CCIntervalAction action(float)
+org.cocos2d.tests.FontTest$Layer4:
+    426:427:public void menuCallback(java.lang.Object)
+    430:431:public void backCallback(java.lang.Object)
+org.cocos2d.tests.MenuTest$Layer4:
+    426:427:public void menuCallback(java.lang.Object)
+    430:431:public void backCallback(java.lang.Object)
+org.cocos2d.tests.ParticleTest$Issue704
+org.cocos2d.tests.ParticleTest$Issue872
+org.cocos2d.tests.ParticleTest$ParticleDesigner1
+org.cocos2d.tests.ParticleTest$ParticleDesigner10
+org.cocos2d.tests.ParticleTest$ParticleDesigner11
+org.cocos2d.tests.ParticleTest$ParticleDesigner2
+org.cocos2d.tests.ParticleTest$ParticleDesigner3
+org.cocos2d.tests.ParticleTest$ParticleDesigner4
+org.cocos2d.tests.ParticleTest$ParticleDesigner5
+org.cocos2d.tests.ParticleTest$ParticleDesigner6
+org.cocos2d.tests.ParticleTest$ParticleDesigner7
+org.cocos2d.tests.ParticleTest$ParticleDesigner8
+org.cocos2d.tests.ParticleTest$ParticleDesigner9
+org.cocos2d.tests.SceneTest$Layer1:
+    59:62:public void onPushScene(java.lang.Object)
+    65:68:public void onPushSceneTran(java.lang.Object)
+    71:72:public void onQuit(java.lang.Object)
+    75:75:public void onVoid()
+org.cocos2d.tests.SceneTest$Layer2
+org.cocos2d.tests.SceneTest$Layer3
+org.cocos2d.tests.SchedulerTest$SchedulerSchedulesAndRemove:
+    361:362:public void tick1(float)
+    365:366:public void tick2(float)
+    369:370:public void tick3(float)
+    373:374:public void tick4(float)
+    377:382:public void scheduleAndUnschedule(float)
+org.cocos2d.tests.SchedulerTest$SchedulerUnscheduleAll:
+    283:284:public void tick1(float)
+    287:288:public void tick2(float)
+    291:292:public void tick3(float)
+    295:296:public void tick4(float)
+    299:300:public void unscheduleAll(float)
+org.cocos2d.tests.SchedulerTest$SchedulerUnscheduleAllHard:
+    323:324:public void tick1(float)
+    327:328:public void tick2(float)
+    331:332:public void tick3(float)
+    335:336:public void tick4(float)
+    339:340:public void unscheduleAll(float)
+org.cocos2d.tests.SchedulerTest$SchedulerUpdate:
+    436:441:public void removeUpdates(float)
+org.cocos2d.tests.SchedulerTest$SchedulerUpdateFromCustom:
+    510:512:public void stopUpdate(float)
+    515:518:public void schedUpdate(float)
+org.cocos2d.tests.SpritesTest$SpriteCallFunc:
+    583:584:public void callback()
+org.cocos2d.tests.SpritesTest$SpriteReverse:
+    458:458:public static org.cocos2d.layers.CCLayer layer()
+org.cocos2d.tests.SpritesTest$SpriteSequence:
+    419:419:public static org.cocos2d.layers.CCLayer layer()
+org.cocos2d.tests.TileMapTest$TMXOrthoTest4:
+    502:510:public void removeSprite(float)
+org.cocos2d.tests.TileMapTest$TileMapEditTest:
+    341:365:public void updateMap(float)
+org.cocos2d.tests.TransitionsTest$TestLayer:
+    310:311:public void step(float)
+    338:340:public void nextCallback(java.lang.Object)
+    343:345:public void backCallback(java.lang.Object)
+    348:374:public void restartCallback(java.lang.Object)
+org.cocos2d.tests.TransitionsTest$TestLayer2
+org.cocos2d.transitions.CCCrossFadeTransition:
+    25:25:public static org.cocos2d.transitions.CCCrossFadeTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCTransitionScene transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCFadeTRTransition:
+    20:20:public static org.cocos2d.transitions.CCFadeTRTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCTransitionScene transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCFlipAngularTransition:
+    21:21:public static org.cocos2d.transitions.CCFlipAngularTransition transition(float,org.cocos2d.layers.CCScene,int)
+    1:1:public static org.cocos2d.transitions.CCOrientedTransitionScene transition(float,org.cocos2d.layers.CCScene,int)
+org.cocos2d.transitions.CCFlipXTransition:
+    20:20:public static org.cocos2d.transitions.CCFlipXTransition transition(float,org.cocos2d.layers.CCScene,int)
+    1:1:public static org.cocos2d.transitions.CCOrientedTransitionScene transition(float,org.cocos2d.layers.CCScene,int)
+org.cocos2d.transitions.CCFlipYTransition:
+    21:21:public static org.cocos2d.transitions.CCFlipYTransition transition(float,org.cocos2d.layers.CCScene,int)
+    1:1:public static org.cocos2d.transitions.CCOrientedTransitionScene transition(float,org.cocos2d.layers.CCScene,int)
+org.cocos2d.transitions.CCJumpZoomTransition:
+    21:21:public static org.cocos2d.transitions.CCJumpZoomTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCTransitionScene transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCMoveInBTransition:
+    14:14:public static org.cocos2d.transitions.CCMoveInBTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCMoveInLTransition transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCMoveInLTransition:
+    20:20:public static org.cocos2d.transitions.CCMoveInLTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCTransitionScene transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCMoveInRTransition:
+    13:13:public static org.cocos2d.transitions.CCMoveInRTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCMoveInLTransition transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCMoveInTTransition:
+    13:13:public static org.cocos2d.transitions.CCMoveInTTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCMoveInLTransition transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCRadialCWTransition:
+    12:12:public static org.cocos2d.transitions.CCRadialCWTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCRadialCCWTransition transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCRotoZoomTransition:
+    19:19:public static org.cocos2d.transitions.CCRotoZoomTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCTransitionScene transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCShrinkGrowTransition:
+    16:16:public static org.cocos2d.transitions.CCShrinkGrowTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCTransitionScene transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCSlideInBTransition:
+    17:17:public static org.cocos2d.transitions.CCSlideInBTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCSlideInLTransition transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCSlideInRTransition:
+    17:17:public static org.cocos2d.transitions.CCSlideInRTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCSlideInLTransition transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCSlideInTTransition:
+    17:17:public static org.cocos2d.transitions.CCSlideInTTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCSlideInLTransition transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCSplitColsTransition:
+    18:18:public static org.cocos2d.transitions.CCSplitColsTransition transition(float,org.cocos2d.layers.CCScene)
+    1:1:public static org.cocos2d.transitions.CCTransitionScene transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCTransitionEaseScene
+org.cocos2d.transitions.CCTransitionScene$tOrientation
+org.cocos2d.transitions.CCTurnOffTilesTransition:
+    20:20:public static org.cocos2d.transitions.CCTransitionScene transition(float,org.cocos2d.layers.CCScene)
+org.cocos2d.transitions.CCZoomFlipAngularTransition:
+    23:23:public static org.cocos2d.transitions.CCZoomFlipAngularTransition transition(float,org.cocos2d.layers.CCScene,int)
+    1:1:public static org.cocos2d.transitions.CCOrientedTransitionScene transition(float,org.cocos2d.layers.CCScene,int)
+org.cocos2d.transitions.CCZoomFlipXTransition:
+    23:23:public static org.cocos2d.transitions.CCZoomFlipXTransition transition(float,org.cocos2d.layers.CCScene,int)
+    1:1:public static org.cocos2d.transitions.CCOrientedTransitionScene transition(float,org.cocos2d.layers.CCScene,int)
+org.cocos2d.transitions.CCZoomFlipYTransition:
+    23:23:public static org.cocos2d.transitions.CCZoomFlipYTransition transition(float,org.cocos2d.layers.CCScene,int)
+    1:1:public static org.cocos2d.transitions.CCOrientedTransitionScene transition(float,org.cocos2d.layers.CCScene,int)
+org.cocos2d.types.Copyable
+org.cocos2d.types.util.CGAffineTransformUtil:
+    8:9:public static void copy(org.cocos2d.types.CGAffineTransform,org.cocos2d.types.CGAffineTransform)
+    43:44:public static void multiply(org.cocos2d.types.CGAffineTransform,org.cocos2d.types.CGAffineTransform)
+org.cocos2d.types.util.CGPointUtil:
+    30:31:public static void applyAffineTransform(org.cocos2d.types.CGPoint,org.cocos2d.types.CGAffineTransform,org.cocos2d.types.CGPoint)
+    64:66:public static void sub(org.cocos2d.types.CGPoint,org.cocos2d.types.CGPoint)
+    69:71:public static float distance(org.cocos2d.types.CGPoint,org.cocos2d.types.CGPoint)
+org.cocos2d.types.util.ccColor4FUtil:
+    8:12:public static void copy(org.cocos2d.types.ccColor4F,org.cocos2d.types.ccColor4F)
+org.cocos2d.types.util.ccQuad2Util
+org.cocos2d.utils.TransformUtils
+org.cocos2d.utils.Util7
